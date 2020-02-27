@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const sqlite3 = require('sqlite3').verbose();
-const DAO = require('./dao');
-const PetModel = require('./petModel');
+const DAO = require('./src/dao');
+const PetModel = require('./src/petModel');
 
 const app = express();
 app.use(bodyParser.json());

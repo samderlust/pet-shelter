@@ -8,7 +8,7 @@ const PetModel = require('./src/petModel');
 
 const app = express();
 app.use(bodyParser.json());
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3031;
 const dao = new DAO();
 const petModel = new PetModel(dao);
 petModel.createTable();

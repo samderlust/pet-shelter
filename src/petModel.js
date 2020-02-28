@@ -31,7 +31,9 @@ class PetModel {
   }
 
   getAll() {
-    return this.dao.all('SELECT id, name, type, breed FROM petShelters;');
+    return this.dao.all(
+      'SELECT id, name, type, breed,location, latitude FROM petShelters;'
+    );
   }
 
   getWithId(id) {

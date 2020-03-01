@@ -32,6 +32,10 @@ Create and retrieve information of pets
 - yarn add to install all the dependencies
 - yarn start to run on localmachine
 
+## Testing
+
+- run "yarn test" for tesing
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />

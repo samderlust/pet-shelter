@@ -46,5 +46,9 @@ class PetModel {
       [name, breed]
     );
   }
+
+  delete(id) {
+    return this.dao.get('DELETE FROM petShelters WHERE id = ?', [id]);
+  }
 }
 module.exports = PetModel;

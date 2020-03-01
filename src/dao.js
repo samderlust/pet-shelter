@@ -19,7 +19,7 @@ class AppDAO {
           console.log(err);
           reject(err);
         } else {
-          resolve({ ...[params] });
+          resolve({ id: this.lastID, ...[params] });
         }
       });
     });

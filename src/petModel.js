@@ -32,7 +32,7 @@ class PetModel {
 
   getAll() {
     return this.dao.all(
-      'SELECT id, name, type, breed,location, latitude FROM petShelters;'
+      'SELECT id, name, type, breed,longitude, latitude FROM petShelters;'
     );
   }
 
